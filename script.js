@@ -88,7 +88,7 @@ const turn = (event) => {
             const currentBottomPosition = +getComputedStyle(enemies[0]).bottom.split("px")[0]
             if (currentBottomPosition < 165) {
                 const currentLeftPosition = +getComputedStyle(el).left.split("px")[0]
-                if (currentLeftPosition === currentLeftPosition) {
+                if (currentPosition === currentLeftPosition) {
                     gameOver()
                 }
             }
@@ -99,7 +99,7 @@ const turn = (event) => {
             const currentBottomPosition = +getComputedStyle(enemies[0]).bottom.split("px")[0]
             if (currentBottomPosition < 165) {
                 const currentLeftPosition = +getComputedStyle(el).left.split("px")[0]
-                if (currentLeftPosition === currentLeftPosition) {
+                if (currentPosition === currentLeftPosition) {
                     gameOver()
                 }
             }
